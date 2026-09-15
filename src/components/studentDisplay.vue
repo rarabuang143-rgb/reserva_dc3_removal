@@ -7,11 +7,11 @@ defineProps({
 <template>
   <div v-if="student">
     <h2>Student Information</h2>
-
-    <p>Name: {{ student.name }}</p>
-    <p>Student ID: {{ student.id }}</p>
-    <p>Course: {{ student.course }}</p>
-    <p>Year Level: {{ student.yearLevel }}</p>
-    <p>Email: {{ student.email }}</p>
+    
+    <p>Name: {{ studentName }}</p>
+    <p>Student ID: {{ studentId }}</p>
+    <p>Course: {{course }}</p>
+    <p>Year Level: {{ yearLevel }}</p>
+    <p>Email: {{ email }}</p>
   </div>
 </template>
