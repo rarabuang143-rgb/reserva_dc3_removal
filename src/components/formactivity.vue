@@ -38,7 +38,7 @@ const sh = ref('');
         <h3>Year:{{ year }}</h3>
         <h3>Description:{{ sh }}</h3>
         <h2></h2>
-</form>
+</form>~
 
 </template> -->
 
